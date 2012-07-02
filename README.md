@@ -6,13 +6,13 @@
 
 To create a new project from this skeleton run
 
-	brunch new dolphins -s git://github.com/ianllewellyn/brunch-dolphins.git
+	`brunch new dolphins -s git://github.com/CDSMOpen/brunch-dolphins.git`
 
 once installed run
 
 	npm start
 
-and visit `localhost:8080`
+and visit `localhost:3333`
 
 Tests are run through the mocha browser test runner, launch a web server from the project root and navigate to `/test/index.html`
 
