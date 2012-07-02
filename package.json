@@ -1,6 +1,6 @@
 {
 	"author": "",
-	"name": "brunch-dolphins",
+	"name": "brunch-orca",
 	"description": "",
 	"version": "0.0.1",
 	"homepage": "",
@@ -9,10 +9,10 @@
 		"type": "subversion",
 		"url": ""
 	},
-	"engines":
-	{
-		"node": "~0.6.10"
-	},
+    "engines": {
+      "node": "~0.6.10 || 0.8 || 0.9"
+    },
+
 	"scripts":
 	{
 		"start": "brunch watch --server",
@@ -20,25 +20,21 @@
 	},
 	"dependencies":
 	{
-		"javascript-brunch": "> 1.0 < 1.4",
-		"coffee-script-brunch": "> 1.0 <= 1.4",
-		
-		"css-brunch": "> 1.0 < 1.4",
-		"sass-brunch": "> 1.0 < 1.4",
-		
-		"eco-brunch": "1.1.0",
-		
-		"uglify-js-brunch": "> 1.0 < 1.4",
-		"clean-css-brunch": "> 1.0 < 1.4"
+        "javascript-brunch": "~1.3.0",
+        "coffee-script-brunch": "~1.3.2",
+        "sass-brunch": "~1.3.0",
+        "css-brunch": "~1.3.0",
+        "eco-brunch": "~1.3.0"
 	},
 	"devDependencies":
 	{
-		"chai": "1.0.4",
-		"sinon": "1.3.4",
-		"sinon-chai": "2.1.2",
-		
-		"mocha": "1.0.3",
-		"expect.js": "0.1.2",
-		"coffee-script": "1.3.3"
+		"sinon": "~1.3.4",
+		"sinon-chai": "~2.1.2",
+        "mocha": "~1.2.2",
+        "expect.js": "~0.1.2",
+        "chai": "~1.0.4",
+        "coffee-script": "~1.3.2",
+        "uglify-js-brunch": "~1.3.0",
+        "clean-css-brunch": "~1.3.0"
 	}
 }
