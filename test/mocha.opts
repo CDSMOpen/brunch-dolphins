@@ -3,3 +3,4 @@
 --globals $,_
 --watch
 --growl
+--ignore-leaks

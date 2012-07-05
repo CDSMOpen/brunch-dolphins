@@ -5,9 +5,10 @@ exports.config =
     javascripts:
       defaultExtension: 'coffee'
       joinTo:
-        'js/app.js': /^app/
-        'js/vendor.js': /^vendor/
-        'test/js/test.js': /^test(\/|\\)(?!vendor)/
+        'javascripts/app.js': /^app/
+        'javascripts/vendor.js': /^vendor/
+        'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
+        'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         before: [
           'vendor/scripts/zepto-1.0rc1.js'
@@ -18,15 +19,15 @@ exports.config =
     stylesheets:
       defaultExtension: 'scss'
       joinTo:
-        'css/style.css': /^(app|vendor)/
-        'test/css/test.css': /^test/
+        'stylesheets/app.css': /^(app|vendor)/
+        'test/stylesheets/test.css': /^test/
       order:
         before: ['vendor/styles/normalize.css']
 
     templates:
       defaultExtension: 'eco'
-      joinTo: 'js/app.js'
+      joinTo: 'javascripts/app.js'
 
   framework: 'backbone'
   server:
-    port: 3333
+    port: 3334
