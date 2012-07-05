@@ -10,11 +10,13 @@ To create a new project from this skeleton run
 
 once installed run
 
-	npm start
+	`npm start`
 
-and visit `localhost:3333`
+and visit `localhost:3333`, or `localhost:3333/test` to view the mocha test runner.
 
-Tests are run through the mocha browser test runner, launch a web server from the project root and navigate to `/test/index.html`
+You can run tests from the command line with:
+
+	`npm test`
 
 ## Javascript Library Versions
 

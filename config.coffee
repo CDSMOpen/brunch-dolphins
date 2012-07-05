@@ -30,4 +30,4 @@ exports.config =
 
   framework: 'backbone'
   server:
-    port: 3334
+    port: 3333
